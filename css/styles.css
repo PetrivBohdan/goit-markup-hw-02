@@ -1,0 +1,183 @@
+:root {
+  --color-background-basic: #ffffff;
+  --color-background-secondary: #f5f4fa;
+  /* Тимчасовий background колір для героя та футера */
+  --color-background-temporary: #2f303a;
+  --color-basic: #757575;
+  --color-title: #212121;
+  --color-action-logo: #2196f3;
+  --color-hero-footer: #ffffff;
+  --color-logo-header: #000000;
+  --color-logo-footer: #ffffff;
+  --color-button-action: #188ce8;
+  --color-footer-text: rgba(255, 255, 255, 0.6);
+  --font-family: "Roboto", sans-serif;
+  --font-family-logo: "Raleway", sans-serif;
+}
+
+/* Видалити та змінити на векторну картинку */
+.hero {
+  background-color: var(--color-background-temporary);
+}
+.footer {
+  background-color: var(--color-background-temporary);
+}
+
+/* Основні */
+body {
+  background-color: var(--color-background-basic);
+  color: var(--color-basic);
+  font-family: var(--font-family);
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Header */
+.header-link.current {
+  color: var(--color-action-logo);
+}
+.logo {
+  color: var(--color-action-logo);
+  font-family: var(--font-family-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.header-logo {
+  color: var(--color-logo-header);
+}
+.header-link {
+  color: var(--color-title);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-action-logo);
+}
+
+.header-list {
+  color: var(--color-basic);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-list:hover,
+.header-list:focus {
+  color: var(--color-action-logo);
+}
+/* Hero */
+.hero-title {
+  color: var(--color-hero-footer);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero-button {
+  background-color: var(--color-action-logo);
+  color: var(--color-hero-footer);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-button-action);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+/* Main */
+.section-title {
+  color: var(--color-title);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.specialty-title {
+  color: var(--color-title);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.specialty-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.team {
+  background-color: var(--color-background-secondary);
+}
+.team li {
+  background-color: var(--color-background-basic);
+}
+.team-title {
+  color: var(--color-title);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Стилі портфоліо */
+.portfolio-button {
+  background-color: var(--color-background-secondary);
+  color: var(--color-title);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--color-action-logo);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--color-logo-footer);
+}
+.portfolio-title {
+  color: var(--color-title);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+}
+/* Footer */
+.footer-logo {
+  color: var(--color-logo-footer);
+}
+
+.footer-text {
+  color: var(--color-footer-contacts);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
