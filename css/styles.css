@@ -26,7 +26,7 @@
 /* Основні */
 body {
   background-color: var(--color-background-basic);
-  color: var(--color-hero-footer);
+  color: var(--color-logo-header);
   font-family: var(--font-family);
   font-size: 16px;
 }
@@ -102,7 +102,6 @@ body {
 /* Main */
 .section-title {
   color: var(--color-title);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -116,7 +115,6 @@ body {
   letter-spacing: 0.02em;
 }
 .specialty-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:var(--color-text)
@@ -135,7 +133,7 @@ body {
   text-align: center;
 }
 .team-text {
-  font-size: 16px;
+  color: ver(--color-text);
   line-height: 1.5;
   text-align: center;
 }
@@ -168,7 +166,6 @@ body {
 }
 .portfolio-text {
   color: var(--color-text);
-  font-size: 16px;
   line-height:1.5;
   letter-spacing: 0.02em
 }
